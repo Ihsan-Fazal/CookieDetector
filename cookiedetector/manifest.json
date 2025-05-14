@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Cookie Detector",
+  "version": "1.0",
+  "description": "Detect and block tracking cookies easily.",
+  "permissions": ["cookies", "storage", "activeTab", "webRequest", "webRequestBlocking"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

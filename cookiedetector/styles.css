@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#statusMessage {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#statusMessage.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+#statusMessage.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.cookie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.cookie-item.high {
+    border-left: 5px solid #dc3545;
+}
+
+.cookie-item.medium {
+    border-left: 5px solid #ffc107;
+}
+
+.cookie-item.safe {
+    border-left: 5px solid #28a745;
+}
+
+.cookie-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cookie-item .blockButton {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.cookie-item .unblockButton {
+    background-color: #6c757d;
+    color: #fff;
+}
